@@ -1,35 +1,39 @@
 # Praising Harris Ratnam
 
-Computer science undergraduate focused on **security for AI systems**: scanners, detectors, red-team tooling and evaluation harnesses for agents, MCP servers, RAG pipelines, model artifacts and SOC telemetry. I care about measured results, reproducible experiments, and being explicit about limitations.
+Computer science undergraduate focused on **security for AI systems**: scanners, red-team tooling, evaluation harnesses and defensive infrastructure for agents, MCP servers, RAG pipelines and model artifacts.
 
-## Selected work
+## 🛡️ AI Security Flagship
 
-| Project | What it is |
+**[aisec-suite](https://github.com/Pyhroff/aisec-suite)** is the umbrella for my AI-security engineering work: a unified CLI, normalized findings, JSON/SARIF reporting, baselines, policy-as-code and CI enforcement across multiple AI trust boundaries.
+
+### Public engineering work
+
+| Project | Focus |
 |---|---|
-| [mcp-scan-study](https://github.com/Pyhroff/mcp-scan-study) | Empirical study of MCP-server security scanning, with a fresh validation set, hand-labelled findings, confidence intervals, and scanner patches evaluated on data the patch had not seen. |
-| [aisec-suite](https://github.com/Pyhroff/aisec-suite) | Unified CLI for security scanning across MCP, memory, RAG, training data, supply chain, agent behavior and package-worm surfaces, with JSON/SARIF output, baselines and CI enforcement. |
-| [promptstrike](https://github.com/Pyhroff/promptstrike) | LLM red-team framework implementing PAIR, TAP, GCG and Crescendo, including agent/tool-output testing and a defensive shield. |
-| [soc-parallax](https://github.com/Pyhroff/soc-parallax) | Behavioral SOC platform with attributable risk scoring, rule-based MITRE ATT&CK mapping, Neo4j correlation and grounded investigation narratives. |
-| [darkdecoder](https://github.com/Pyhroff/darkdecoder) | Threat-intelligence analyzer combining MITRE ATT&CK and MITRE ATLAS for suspicious code and AI-security inputs. |
-| [ModelHawk](https://github.com/Pyhroff/ModelHawk) | Static scanner for code-execution backdoors in PyTorch and pickle model artifacts. |
-| [pqc-scanner](https://github.com/Pyhroff/pqc-scanner) | Static analyzer for quantum-vulnerable cryptography across Python, JavaScript, Java and Go, aligned with NIST post-quantum standards. |
-| [PhantomGrid](https://github.com/Pyhroff/PhantomGrid) | Behavioral security research prototype for detecting suspicious interaction patterns in banking workflows. |
-| [proxy-Strands](https://github.com/Pyhroff/proxy-Strands) | AI browser-agent prototype with policy gating, indirect prompt-injection defense and human-gated handling of sensitive form fields. |
+| [aisec-suite](https://github.com/Pyhroff/aisec-suite) | Umbrella AI-security scanner and common reporting/CI layer |
+| [mcp-scan-study](https://github.com/Pyhroff/mcp-scan-study) | Empirical MCP-security evaluation and validation |
+| [promptstrike](https://github.com/Pyhroff/promptstrike) | Jailbreak, indirect-injection and adversarial evaluation |
+| [ModelHawk](https://github.com/Pyhroff/ModelHawk) | Static ML-model supply-chain / deserialization security |
+| [proxy-Strands](https://github.com/Pyhroff/proxy-Strands) | Agent policy gating and indirect-injection defense |
+| [soc-parallax](https://github.com/Pyhroff/soc-parallax) | AI-assisted SOC detection and investigation |
 
-## How I work
+### Private R&D
 
-- **Evaluate honestly.** Separate development and evaluation data, report false positives beside detection rates, and document where a benchmark does not generalize.
-- **Secure by default.** Fail-closed authorization, path-confined file access, no default secrets, least-privilege workflows and non-root containers.
-- **Build small, tested units.** Detection rules and parsers ship with positive and negative cases; CI validates the important paths.
-- **Make security claims auditable.** Prefer deterministic mappings, evidence-backed explanations and reproducible experiments over impressive but unsupported numbers.
+I also maintain private specialist work covering MCP, RAG, memory, agent-loop behavior, training-data poisoning, supply-chain controls and adversarial regression. Private repositories are intentionally not linked here; the public portfolio is the reproducible subset.
+
+## 🔬 How I evaluate security
+
+**Threat model → attack/fixture → detection/defense → benchmark → measured result → limitations**
+
+I prefer controlled regression corpora, held-out validation data, explicit false-positive accounting and reproducible CI over unsupported security claims.
 
 ## Stack
 
-Python, FastAPI, TypeScript, Next.js, PostgreSQL, Neo4j, Docker, GitHub Actions, MITRE ATT&CK, MITRE ATLAS, Sysmon/Windows event logs, Ollama and LangGraph.
+Python, FastAPI, TypeScript, Next.js, PostgreSQL, Neo4j, Docker, GitHub Actions, MITRE ATT&CK, MITRE ATLAS, Ollama and LangGraph.
 
 ## Currently
 
-Extending AI-security tooling, strengthening benchmark methodology, and building toward security and AI engineering roles.
+Strengthening AI-security benchmark methodology, cross-repository regression testing and security engineering for agentic systems.
 
 ## Contact
 
