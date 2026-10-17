@@ -21,6 +21,7 @@ Authored upstream security advisories, vulnerability patches, and runtime fixes 
 | Project | Pull Request / Advisory | Severity / Impact | Target Component | Status |
 |---|---|:---:|---|:---:|
 | **LiteLLM** | [PR #47105](https://github.com/BerriAI/litellm/pull/47105) | **CVSS 7.5 (High)** | BOLA Access Control Bypass with Empty Models List (`auth_checks.py`) | **Submitted** |
+| **FastMCP** | [PR #5786](https://github.com/PrefectHQ/fastmcp/pull/5786) | **Medium** | Converted malformed port `ValueError` to `SSRFError` in `validate_url` to stop 500 crashes | **Submitted** |
 | **CrewAI** | [PR #8245](https://github.com/crewAIInc/crewAI/pull/8245) | **Medium** | Preserved universal newlines across Unicode line breaks in tool artifacts | **Submitted** |
 | **CrewAI** | [PR #8244](https://github.com/crewAIInc/crewAI/pull/8244) | **Medium** | Decoded percent-encoded passwords in `REDIS_URL` for A2A cache | **Submitted** |
 | **CrewAI** | [PR #8243](https://github.com/crewAIInc/crewAI/pull/8243) | **Medium** | Restored configured logger levels & preserved `NOTSET` hierarchy on errors | **Submitted** |
