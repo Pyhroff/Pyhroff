@@ -11,6 +11,7 @@ Authored upstream security advisories, vulnerability patches, and runtime fixes 
 
 | Project / Target | PR / Advisory | Type / Vulnerability | Status |
 |---|---|---|:---:|
+| **CrewAI** | [PR #8244](https://github.com/crewAIInc/crewAI/pull/8244) | Decoded percent-encoded passwords in `REDIS_URL` for A2A task cache | **Submitted** |
 | **CrewAI** | [PR #8243](https://github.com/crewAIInc/crewAI/pull/8243) | Restored configured logger levels & preserved `NOTSET` hierarchy on errors | **Submitted** |
 | **CrewAI** | [PR #8242](https://github.com/crewAIInc/crewAI/pull/8242) | Preserved upstream dependent task context during guardrail retry loops | **Submitted** |
 | **CrewAI** | [PR #8240](https://github.com/crewAIInc/crewAI/pull/8240) | Fixed native MCP pagination cursor handling (`nextCursor` / `next_cursor`) | **Submitted** |
