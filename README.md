@@ -2,12 +2,12 @@
 
 # Praising Harris Ratnam
 ### AI Systems Security Researcher & Runtime Defense Engineer
-**B.Tech CSE (Cybersecurity), IIIT Kottayam** · *Target: Winter Internship (Available 14 Nov 2026)*
+**B.Tech CSE (Cybersecurity), IIIT Kottayam** · *Target: AI Systems / Security / Agent Engineering Internship*
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Pyhroff-181717?style=flat-square&logo=github)](https://github.com/Pyhroff)
 [![Security Advisories](https://img.shields.io/badge/Advisories-Repository-critical?style=flat-square&logo=github)](https://github.com/Pyhroff/security-advisories)
 [![Latest Research Release](https://img.shields.io/badge/Release-v2026.10.1-blue?style=flat-square&logo=github)](https://github.com/Pyhroff/security-advisories/releases/tag/v2026.10.1)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Praising_Harris-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/Praising_Harris)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Praising_Harris-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/praising-harris-8a3320330)
 [![Email](https://img.shields.io/badge/Email-praisingharris%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:praisingharris@gmail.com)
 
 </div>
@@ -35,28 +35,32 @@ Authored upstream security advisories, vulnerability patches, and runtime fixes 
 
 ---
 
-### 📄 Empirical Security Research & Tooling
+### 📄 Featured Open-Source Projects & Tooling
 
 ```
   ┌────────────────────────────────────────────────────────────────────────┐
   │                           AI SECURITY SUITE                            │
   ├──────────────────────────────────┬─────────────────────────────────────┤
-  │  mcp_security_auditor.py         │  specprove-sec                      │
-  │  AST scanner for MCP tools       │  Formal Z3 SMT Bounded Checker      │
+  │  aisec-suite / mcpaudit          │  promptstrike                       │
+  │  AST scanner for MCP & agents    │  Automated LLM Red-Teaming CLI      │
   ├──────────────────────────────────┼─────────────────────────────────────┤
-  │  THE 2026 STATE OF MCP SECURITY  │  pqc-scanner                        │
-  │  Empirical 90-server paper       │  NIST FIPS 203/204/205 PQC scanner  │
+  │  ModelHawk                       │  loopcheck / osiris                 │
+  │  PyTorch backdoor AST scanner    │  Agent loop waste auditor & runtime │
   └──────────────────────────────────┴─────────────────────────────────────┘
 ```
 
-* **[The 2026 State of Model Context Protocol (MCP) Security](https://github.com/Pyhroff/security-advisories/blob/main/THE_2026_STATE_OF_MCP_SECURITY.md)**  
-  *Comprehensive empirical vulnerability audit of 90 public MCP servers, mapping CWE-78 subshell hazards, schema poisoning attacks, and runtime sandbox boundaries to MITRE ATLAS.*
-* **[MCP Security Auditor (`mcp_security_auditor.py`)](https://github.com/Pyhroff/security-advisories/blob/main/mcp_security_auditor.py)**  
-  *Static AST-based vulnerability analyzer detecting unsafe deserialization (CWE-502), subshell command injection (CWE-78), dynamic evaluation (CWE-95), and path traversal (CWE-22).*
-* **[specprove-sec](https://github.com/Pyhroff/specprove-sec)**  
-  *Formal Z3 SMT Bounded Model Checker, Unbounded k-Induction Prover, Counterexample Exploit Synthesizer & Lean 4 Proof Certificate Exporter for Agentic (MCP) & Zero-Trust Security Protocols.*
-* **[aisec-suite](https://github.com/Pyhroff/aisec-suite)**  
+* **[aisec-suite](https://github.com/Pyhroff/aisec-suite)** *(Specialist Scanners: [mcpaudit](https://github.com/Pyhroff/mcpaudit), [memsentry](https://github.com/Pyhroff/memsentry), [ragsentry](https://github.com/Pyhroff/ragsentry), [trainsentry](https://github.com/Pyhroff/trainsentry))*  
   *Unified CLI and CI gate for AI application security, generating SARIF reports and policy baselines across agent runtimes, MCP servers, and context memory.*
+* **[PromptStrike](https://github.com/Pyhroff/promptstrike)**  
+  *Automated adversarial red-teaming CLI for LLMs — PAIR/TAP/Crescendo jailbreak algorithms, live dashboard, multi-model sweep comparison, and CI/CD safety gate.*
+* **[ModelHawk](https://github.com/Pyhroff/ModelHawk)**  
+  *Static AST-based analyzer detecting code-execution backdoors (pickle-deserialization RCE) in PyTorch/pickle ML model files without loading weights.*
+* **[loopcheck](https://github.com/Pyhroff/loopcheck)**  
+  *Zero-instrumentation waste auditor for agent loops — analyze, compare, and report on wasted tool calls without any SDK integration or OTel collector.*
+* **[OSIRIS](https://github.com/Pyhroff/osiris)**  
+  *Model-agnostic agent runtime with provider failover (Gemini/Groq/Ollama/OpenAI), persistent vector memory, and developer integrations.*
+* **[specprove-sec](https://github.com/Pyhroff/specprove-sec)**  
+  *Formal Z3 SMT Bounded Model Checker, Unbounded k-Induction Prover, Counterexample Exploit Synthesizer & Lean 4 Proof Certificate Exporter for Agentic (MCP) Protocols.*
 * **[pqc-scanner](https://github.com/Pyhroff/pqc-scanner)**  
   *Static analyzer detecting quantum-vulnerable cryptography (RSA/ECC) across Python, Java, JS, and Go with NIST FIPS 203/204/205 post-quantum migration advice.*
 
