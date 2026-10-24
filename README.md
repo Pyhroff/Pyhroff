@@ -20,7 +20,7 @@ Authored upstream security advisories, vulnerability patches, and runtime defens
 
 | Project | Pull Request / Advisory | Severity / Impact | Target Component | Status |
 |---|---|:---:|---|:---:|
-| **LiteLLM** | [PR #47105](https://github.com/BerriAI/litellm/pull/47105) | **CVSS 7.5 (High)** | BOLA Access Control Bypass with Empty Models List (`auth_checks.py`) | **Passed (88/88 CI)** |
+| **LiteLLM** | [PR #47105](https://github.com/BerriAI/litellm/pull/47105) | **CVSS 7.5 (High)** | BOLA Access Control Bypass with Empty Models List (`auth_checks.py`) | **Open** *(CI Passed)* |
 | **LiteLLM** | [PR #47119](https://github.com/BerriAI/litellm/compare/main...Pyhroff:litellm:fix/allow-requests-db-unavailable-unconfigured-db?expand=1) | **CVSS 7.5 (High)** | Fail-Open Prevention: Reject Unauthorized Calls on Unconfigured DB (`user_api_key_auth.py`) | **Tested & Synced** |
 | **LiteLLM** | [PR #46916](https://github.com/BerriAI/litellm/compare/main...Pyhroff:litellm:fix/key-budget-duration-tier-auth?expand=1) | **CVSS 6.5 (Med)** | Budget Reset & Tier Escalation Prevention on Key Update (`key_management_endpoints.py`) | **Tested & Synced** |
 | **LiteLLM** | [PR #47005](https://github.com/BerriAI/litellm/compare/main...Pyhroff:litellm:fix/tag-new-atomic-deployment-validation?expand=1) | **Medium** | Pre-Validate Model Deployments & Atomic Rollback in `/tag/new` (`tag_management_endpoints.py`) | **Tested & Synced** |
@@ -30,17 +30,19 @@ Authored upstream security advisories, vulnerability patches, and runtime defens
 | **LiteLLM** | [PR #47011](https://github.com/BerriAI/litellm/compare/main...Pyhroff:litellm:fix/key-gen-spend-routes-enterprise-error?expand=1) | **Medium** | Structured 403 License Error vs 500 Crash on Non-Enterprise Spend Routes | **Tested & Synced** |
 | **LiteLLM** | [PR #46847](https://github.com/BerriAI/litellm/compare/main...Pyhroff:litellm:fix/extra-header-tags-case-insensitive?expand=1) | **Medium** | RFC 7230/9110 Case-Insensitive Header Lookup for Extra Spend Tracking Tags | **Tested & Synced** |
 | **LiteLLM** | [PR #47258](https://github.com/BerriAI/litellm/compare/main...Pyhroff:litellm:fix/aiohttp-openai-service-tier?expand=1) | **Low** | Provider `service_tier` Metric Propagation onto `ModelResponse` | **Tested & Synced** |
-| **LiteLLM** | [PR #47107](https://github.com/BerriAI/litellm/pull/47107) | **Medium** | Dual Support & Deduplication for `model_names` and `model_ids` in Access Groups | **Passed (88/88 CI)** |
-| **LiteLLM** | [PR #47106](https://github.com/BerriAI/litellm/pull/47106) | **Medium** | Exclude `budget_id` from Entity Updates to Prevent Duplicate Kwarg Crash | **Passed (88/88 CI)** |
-| **LiteLLM** | [PR #47097](https://github.com/BerriAI/litellm/pull/47097) | **Medium** | Router Image Generation Failure Callback Dispatching (Langfuse, OTel) | **Passed (88/88 CI)** |
-| **LiteLLM** | [PR #47091](https://github.com/BerriAI/litellm/pull/47091) | **Low** | Cohere Chat Completion String Stop Sequence Normalization | **Passed (88/88 CI)** |
-| **FastMCP** | [PR #5786](https://github.com/PrefectHQ/fastmcp/pull/5786) | **Medium** | Converted Malformed Port `ValueError` to `SSRFError` in `validate_url` to Stop 500 Crashes | **Submitted** |
+| **LiteLLM** | [PR #47107](https://github.com/BerriAI/litellm/pull/47107) | **Medium** | Dual Support & Deduplication for `model_names` and `model_ids` in Access Groups | **Open** *(CI Passed)* |
+| **LiteLLM** | [PR #47106](https://github.com/BerriAI/litellm/pull/47106) | **Medium** | Exclude `budget_id` from Entity Updates to Prevent Duplicate Kwarg Crash | **Open** *(CI Passed)* |
+| **LiteLLM** | [PR #47097](https://github.com/BerriAI/litellm/pull/47097) | **Medium** | Router Image Generation Failure Callback Dispatching (Langfuse, OTel) | **Open** *(CI Passed)* |
+| **LiteLLM** | [PR #47091](https://github.com/BerriAI/litellm/pull/47091) | **Low** | Cohere Chat Completion String Stop Sequence Normalization | **Open** *(CI Passed)* |
+| **FastMCP** | [PR #5786](https://github.com/PrefectHQ/fastmcp/pull/5786) | **Medium** | Converted Malformed Port `ValueError` to `SSRFError` in `validate_url` to Stop 500 Crashes | **Open** |
 | **FastMCP** | [PYHROFF-ADV-2026-002](https://github.com/Pyhroff/security-advisories/blob/main/GHSA_FASTMCP_SANDBOX_AUDIT.md) | **CVSS 5.3 (Med)** | Async Monty Sandbox Boundary Analysis & Host-Side Callback Decoupling | **Audited** |
-| **CrewAI** | [PR #8245](https://github.com/crewAIInc/crewAI/pull/8245) | **Medium** | Universal Newline Preservation Across Unicode Line Breaks in Tool Artifacts | **Submitted** |
-| **CrewAI** | [PR #8244](https://github.com/crewAIInc/crewAI/pull/8244) | **Medium** | Decoded Percent-Encoded Passwords in `REDIS_URL` for A2A Cache | **Submitted** |
-| **CrewAI** | [PR #8243](https://github.com/crewAIInc/crewAI/pull/8243) | **Medium** | Restored Configured Logger Levels & Preserved `NOTSET` Hierarchy on Errors | **Submitted** |
-| **CrewAI** | [PR #8242](https://github.com/crewAIInc/crewAI/pull/8242) | **Medium** | Preserved Upstream Dependent Task Context During Guardrail Retry Loops | **Submitted** |
-| **CrewAI** | [PR #8240](https://github.com/crewAIInc/crewAI/pull/8240) | **Medium** | Native MCP Pagination Cursor Handling (`nextCursor` / `next_cursor`) | **Submitted** |
+| **CrewAI** | [PR #8245](https://github.com/crewAIInc/crewAI/pull/8245) | **Medium** | Universal Newline Preservation Across Unicode Line Breaks in Tool Artifacts | **Open** |
+| **CrewAI** | [PR #8244](https://github.com/crewAIInc/crewAI/pull/8244) | **Medium** | Decoded Percent-Encoded Passwords in `REDIS_URL` for A2A Cache | **Open** |
+| **CrewAI** | [PR #8243](https://github.com/crewAIInc/crewAI/pull/8243) | **Medium** | Restored Configured Logger Levels & Preserved `NOTSET` Hierarchy on Errors | **Open** |
+| **CrewAI** | [PR #8242](https://github.com/crewAIInc/crewAI/pull/8242) | **Medium** | Preserved Upstream Dependent Task Context During Guardrail Retry Loops | **Open** |
+| **CrewAI** | [PR #8240](https://github.com/crewAIInc/crewAI/pull/8240) | **Medium** | Native MCP Pagination Cursor Handling (`nextCursor` / `next_cursor`) | **Open** |
+
+> *Note: Upstream pull requests across `BerriAI/litellm`, `PrefectHQ/fastmcp`, and `crewAIInc/crewAI` are currently active and open pending maintainer merge, with all automated test suites and CI checks passing.*
 
 ---
 
