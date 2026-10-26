@@ -6,7 +6,7 @@
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Pyhroff-181717?style=flat-square&logo=github)](https://github.com/Pyhroff)
 [![Merged Tier-1 PR](https://img.shields.io/badge/SQLGlot-Merged%20by%20Toby%20Mao-purple?style=flat-square&logo=git)](https://github.com/tobymao/sqlglot/pull/8780)
-[![Upstream PRs](https://img.shields.io/badge/Upstream%20PRs-26%20Tier--1-brightgreen?style=flat-square&logo=github)](https://github.com/Pyhroff)
+[![Upstream PRs](https://img.shields.io/badge/Upstream%20PRs-27%20Tier--1-brightgreen?style=flat-square&logo=github)](https://github.com/Pyhroff)
 [![MCP Benchmark](https://img.shields.io/badge/MCP%20Benchmark-48.1%25%20%40%200.03%25%20FPR-blue?style=flat-square)](https://github.com/Pyhroff/mcpaudit)
 [![Security Advisories](https://img.shields.io/badge/Advisories-Repository-critical?style=flat-square&logo=github)](https://github.com/Pyhroff/security-advisories)
 [![Latest Research Release](https://img.shields.io/badge/Release-v2026.10.1-blue?style=flat-square&logo=github)](https://github.com/Pyhroff/security-advisories/releases/tag/v2026.10.1)
@@ -124,6 +124,7 @@ Authored upstream security advisories, vulnerability disclosures, and runtime de
 | **LiteLLM** | [PR #46916](https://github.com/BerriAI/litellm/compare/main...Pyhroff:litellm:fix/key-budget-duration-tier-auth?expand=1) | Budget reset & tier escalation prevention on key update (CVSS 6.5) | **Open** *(Tested)* |
 | **LiteLLM** | [PR #47107](https://github.com/BerriAI/litellm/pull/47107) | Dual support & deduplication for `model_names` / `model_ids` | **Open** *(CI Passed)* |
 | **FastMCP** | [PR #5786](https://github.com/PrefectHQ/fastmcp/pull/5786) | SSRF error handling in `validate_url` to stop 500 crashes | **Open** |
+| **FastMCP** | [PR #6063](https://github.com/PrefectHQ/fastmcp/pull/6063) | **Enforce wall-clock timeout & callback limit in Monty & CodeMode** | 🟢 **Open** *(65/65 Tests Pass)* |
 | **FastMCP** | [ADV-2026-002](https://github.com/Pyhroff/security-advisories/blob/main/GHSA_FASTMCP_SANDBOX_AUDIT.md) | Async Monty sandbox boundary analysis & callback decoupling | **Audited** |
 | **CrewAI** | [PR #8240](https://github.com/crewAIInc/crewAI/pull/8240) | Native MCP pagination cursor handling (`nextCursor`) | **Open** |
 | **CrewAI** | [PR #8244](https://github.com/crewAIInc/crewAI/pull/8244) | Percent-encoded password decoding in `REDIS_URL` | **Open** |
