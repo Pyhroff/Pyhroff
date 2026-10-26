@@ -6,7 +6,7 @@
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Pyhroff-181717?style=flat-square&logo=github)](https://github.com/Pyhroff)
 [![Merged Tier-1 PR](https://img.shields.io/badge/SQLGlot-Merged%20by%20Toby%20Mao-purple?style=flat-square&logo=git)](https://github.com/tobymao/sqlglot/pull/8780)
-[![Upstream PRs](https://img.shields.io/badge/Upstream%20PRs-24%20Tier--1-brightgreen?style=flat-square&logo=github)](https://github.com/Pyhroff)
+[![Upstream PRs](https://img.shields.io/badge/Upstream%20PRs-26%20Tier--1-brightgreen?style=flat-square&logo=github)](https://github.com/Pyhroff)
 [![MCP Benchmark](https://img.shields.io/badge/MCP%20Benchmark-48.1%25%20%40%200.03%25%20FPR-blue?style=flat-square)](https://github.com/Pyhroff/mcpaudit)
 [![Security Advisories](https://img.shields.io/badge/Advisories-Repository-critical?style=flat-square&logo=github)](https://github.com/Pyhroff/security-advisories)
 [![Latest Research Release](https://img.shields.io/badge/Release-v2026.10.1-blue?style=flat-square&logo=github)](https://github.com/Pyhroff/security-advisories/releases/tag/v2026.10.1)
@@ -114,6 +114,7 @@ Authored upstream security advisories, vulnerability disclosures, and runtime de
 | **SQLFluff** | [PR #8899](https://github.com/sqlfluff/sqlfluff/pull/8899) | StarRocks Fixed Range Partition Bracket Grammar | 🟢 **Verified by Duo-ee** |
 | **SQLFluff** | [PR #8901](https://github.com/sqlfluff/sqlfluff/pull/8901) | Apache Doris StatementSegment FLUSH grammar isolation | 🟢 **Open** *(Tests Passing)* |
 | **SQLFluff** | [PR #8902](https://github.com/sqlfluff/sqlfluff/pull/8902) | StarRocks StatementSegment FLUSH grammar isolation | 🟢 **Open** *(Tests Passing)* |
+| **LiteLLM** | [Branch `fix/mcp-guardrails-fail-closed`](https://github.com/BerriAI/litellm/compare/main...Pyhroff:litellm:fix/mcp-guardrails-fail-closed) | **Fail-Closed Tool Resolution & External Server Check** (CWE-285/862) | 🟢 **Committed** *(28 Tests + Lean 4 Cert)* |
 | **LiteLLM** | [PR #47312](https://github.com/BerriAI/litellm/pull/47312) | **BFLA Access Control Bypass** on /v1/mcp/access_groups (CVSS 7.5) | 🟢 **Open** *(Tests Passing)* |
 | **LiteLLM** | [PR #47311](https://github.com/BerriAI/litellm/pull/47311) | Budget duration update authorization bypass (CVSS 6.5) | 🟢 **Open** *(Tests Passing)* |
 | **Qualtran** | [PR #1986](https://github.com/quantumlib/Qualtran/pull/1986) | Fault-Tolerant Reversible Adder Bloq call graph CNOT cost | 🟢 **Open** *(Tested)* |
