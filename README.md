@@ -126,6 +126,7 @@ Authored upstream security advisories, vulnerability disclosures, and runtime de
 | **FastMCP** | [ADV-2026-002](https://github.com/Pyhroff/security-advisories/blob/main/GHSA_FASTMCP_SANDBOX_AUDIT.md) | Async Monty sandbox boundary analysis & callback decoupling | **Audited** |
 | **CrewAI** | [PR #8240](https://github.com/crewAIInc/crewAI/pull/8240) | Native MCP pagination cursor handling (`nextCursor`) | **Open** |
 | **CrewAI** | [PR #8244](https://github.com/crewAIInc/crewAI/pull/8244) | Percent-encoded password decoding in `REDIS_URL` | **Open** |
+| **Presidio** | [PR #2418](https://github.com/data-privacy-stack/presidio/pull/2418) | Docker anonymizer container port forwarding fix (`5001:3000`) | **Open** |
 
 > *Full list of 20+ upstream advisories & patches available at [security-advisories](https://github.com/Pyhroff/security-advisories).*
 
