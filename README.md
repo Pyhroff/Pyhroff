@@ -3,11 +3,7 @@
 # Praising Harris Ratnam
 ### AI Systems Security Researcher & Runtime Defense Engineer
 **B.Tech Computer Science & Engineering (Cybersecurity) · Indian Institute of Information Technology (IIIT) Kottayam (2024–2028)**  
-**🎯 Available for 6-Month Full-Time Co-op / Industrial Internship: November 14, 2026 – Summer 2026**  
-*Institutional Clearance: University NOC Approved & Academic Credit Eligible · Remote or On-Site*
 
-[![Co-op Availability](https://img.shields.io/badge/Co--op-Available_Nov_14,_2026_--_Summer_2026-brightgreen?style=flat-square&logo=calendar)](https://github.com/Pyhroff)
-[![University Status](https://img.shields.io/badge/University_NOC-Approved_%2F_Credit_Eligible-blue?style=flat-square)](https://github.com/Pyhroff)
 [![GitHub](https://img.shields.io/badge/GitHub-Pyhroff-181717?style=flat-square&logo=github)](https://github.com/Pyhroff)
 [![PyPI](https://img.shields.io/badge/PyPI-aisec--suite_v0.3.0-blue?style=flat-square&logo=pypi)](https://pypi.org/project/aisec-suite/)
 [![SQLGlot Merged](https://img.shields.io/badge/SQLGlot-PR_%238780_Merged-8957e5?style=flat-square&logo=git)](https://github.com/tobymao/sqlglot/pull/8780)
@@ -21,17 +17,6 @@
 [![Email](https://img.shields.io/badge/Email-praisingharris%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:praisingharris@gmail.com)
 
 </div>
-
----
-
-### 🎓 6-Month Full-Time Co-op & Industrial Internship Availability
-
-> **Target Timeline:** **November 14, 2026 – Summer 2026** (6 Months Full-Time, 40 hrs/week)  
-> **Institutional Status:** **Approved University No Objection Certificate (NOC)** & Full Academic Credit Clearance from IIIT Kottayam  
-> **Work Authorization:** Ready for immediate onboarding · Remote worldwide or On-Site relocation  
-> **Target Engineering Domains:** AI Systems Security, Agent Runtime Defense, Distributed Systems & Storage, Compilers & ASTs, Systems Software Engineering
-
-I am seeking an intensive 6-month industrial co-op where I can bring Day-1 engineering velocity to production codebases. With **2 verified merged Tier-1 open-source pull requests** (`SQLGlot #8780` merged by founder Toby Mao and `LiteLLM #47091` merged), **10+ active upstream PRs under maintainer review** (`FastMCP #6063`, `Qualtran #1986`, `PennyLane #10391`, `SQLFluff #8900/#8899`, `CrewAI #8240`), and **7 production-grade flagship systems**, I engineer deterministic systems solutions backed by automated tests, formal proofs, and rigorous benchmarks.
 
 ---
 
@@ -175,12 +160,10 @@ Comprehensive audit of 27 Tier-1 upstream pull requests, compiler patches, and s
 
 ---
 
-### 📬 Co-op Recruitment Inquiries & Contact Channels
+### 📬 Connect & Technical Inquiries
 
-Recruiters, engineering leaders, and university coordinators may reach out directly to schedule interviews or request institutional clearance documentation:
-
+Feel free to reach out regarding systems security research, compiler internals, or open-source collaborations:
 - **Email:** [praisingharris@gmail.com](mailto:praisingharris@gmail.com)
 - **LinkedIn:** [linkedin.com/in/praising-harris-8a3320330](https://www.linkedin.com/in/praising-harris-8a3320330)
 - **GitHub:** [github.com/Pyhroff](https://github.com/Pyhroff)
 - **PyPI Portfolio:** [pypi.org/user/pyhroff](https://pypi.org/user/pyhroff/)
-- **Availability:** **November 14, 2026 – Summer 2026** (Full-time 6 months, NOC ready on request)
