@@ -39,10 +39,11 @@ Also: [adversagen](https://github.com/Pyhroff/adversagen) (red-team counterpart 
 
 | Project | PR | Status |
 |---|---|---|
-| **SQLGlot** | [#8780](https://github.com/tobymao/sqlglot/pull/8780) — typed lambda parameters shared one `DataType` node across casts, breaking in-place transforms | ✅ Merged |
+| **SQLGlot** | [#8780](https://github.com/tobymao/sqlglot/pull/8780) — typed lambda parameters shared one DataType node across casts, breaking in-place transforms | ✅ Merged |
+| **LiteLLM** | [#47091](https://github.com/BerriAI/litellm/pull/47091) — map OpenAI-style string stop sequence to list for Cohere chat | ✅ Merged |
+| LiteLLM | [#47105](https://github.com/BerriAI/litellm/pull/47105), [#47312](https://github.com/BerriAI/litellm/pull/47312) — proxy access control & model scoping | Open |
 | SQLFluff | [#8899](https://github.com/sqlfluff/sqlfluff/pull/8899), [#8900](https://github.com/sqlfluff/sqlfluff/pull/8900), [#8901](https://github.com/sqlfluff/sqlfluff/pull/8901), [#8902](https://github.com/sqlfluff/sqlfluff/pull/8902) — dialect grammar fixes | In review |
-| LiteLLM | [#47105](https://github.com/BerriAI/litellm/pull/47105), [#47311](https://github.com/BerriAI/litellm/pull/47311), [#47312](https://github.com/BerriAI/litellm/pull/47312) — authorization checks on proxy management endpoints | Open |
-| CrewAI | [#8240](https://github.com/crewAIInc/crewAI/pull/8240), [#8244](https://github.com/crewAIInc/crewAI/pull/8244) — MCP pagination cursor, Redis URL decoding | Open |
+| FastMCP · CrewAI | [#6063](https://github.com/PrefectHQ/fastmcp/pull/6063) (timeout & callback limits) · [#8240](https://github.com/crewAIInc/crewAI/pull/8240) | Open |
 | Qualtran · PennyLane | [#1986](https://github.com/quantumlib/Qualtran/pull/1986) · [#10391](https://github.com/PennyLaneAI/pennylane/pull/10391) | Open |
 
 ---
