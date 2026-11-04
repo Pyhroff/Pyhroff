@@ -6,8 +6,8 @@ B.Tech CSE (Cybersecurity), IIIT Kottayam, 2024–2028 · Looking for Summer 202
 [praisingharris@gmail.com](mailto:praisingharris@gmail.com) · [LinkedIn](https://www.linkedin.com/in/praising-harris-8a3320330) · [PyPI](https://pypi.org/user/Pyhroff/)
 
 [![IIIT Kottayam · B.Tech Cybersecurity](assets/badges/badge_iiitk.svg)](https://www.iiitkottayam.ac.in)
-[![4 merged PRs](assets/badges/badge_merged_prs.svg)](#upstream-pull-requests)
-[![12 open PRs](assets/badges/badge_active_prs.svg)](#upstream-pull-requests)
+[![5 merged PRs](assets/badges/badge_merged_prs.svg)](#upstream-pull-requests)
+[![16 open PRs](assets/badges/badge_active_prs.svg)](#upstream-pull-requests)
 [![4 PyPI packages](assets/badges/badge_pypi_packages.svg)](#what-i-build)
 
 ---
@@ -29,17 +29,18 @@ On PyPI: `aisec-suite` 0.4.0 · `pyhroff-mcpaudit` 0.8.0 · `memsentry` 1.2.0 ·
 
 **Merged and shipped:**
 - [tobymao/sqlglot #8780](https://github.com/tobymao/sqlglot/pull/8780) (v30.25.0): copy the `DataType` node for each cast in `_replace_lambda` so no AST node has two parents.
-- [sqlfluff/sqlfluff #8901](https://github.com/sqlfluff/sqlfluff/pull/8901), [#8902](https://github.com/sqlfluff/sqlfluff/pull/8902) (4.5.0): remove unsupported `FLUSH` from the Doris and StarRocks grammars.
+- [sqlfluff/sqlfluff #8901](https://github.com/sqlfluff/sqlfluff/pull/8901), [#8902](https://github.com/sqlfluff/sqlfluff/pull/8902) (4.5.0): remove unsupported `FLUSH` from the Doris and StarRocks grammars. Also [#8899](https://github.com/sqlfluff/sqlfluff/pull/8899): use `CommaSegment` in the StarRocks fixed-range partition grammar.
 - [BerriAI/litellm #47091](https://github.com/BerriAI/litellm/pull/47091): normalise a string `stop` to a list for Cohere.
 
 **Open, under review:**
-- [BerriAI/litellm #47105](https://github.com/BerriAI/litellm/pull/47105): fail closed when a key or team has access groups but an empty model list (issue #46951). Also [#47106](https://github.com/BerriAI/litellm/pull/47106) and [#47107](https://github.com/BerriAI/litellm/pull/47107).
+- [BerriAI/litellm #47105](https://github.com/BerriAI/litellm/pull/47105): fail closed when a key or team has access groups but an empty model list (issue #46951). Also [#47106](https://github.com/BerriAI/litellm/pull/47106), [#47107](https://github.com/BerriAI/litellm/pull/47107), [#47311](https://github.com/BerriAI/litellm/pull/47311) (budget authorization) and [#47312](https://github.com/BerriAI/litellm/pull/47312) (scope MCP access groups to the caller).
 - [sqlfluff/sqlfluff #8900](https://github.com/sqlfluff/sqlfluff/pull/8900) (maintainer-approved).
 - [crewAIInc/crewAI #8240](https://github.com/crewAIInc/crewAI/pull/8240) (MCP pagination), [#8242](https://github.com/crewAIInc/crewAI/pull/8242), [#8244](https://github.com/crewAIInc/crewAI/pull/8244), [#8245](https://github.com/crewAIInc/crewAI/pull/8245).
 - [PrefectHQ/fastmcp #6063](https://github.com/PrefectHQ/fastmcp/pull/6063): wall-clock timeout and callback cap for the Monty sandbox.
 - [graphql-python/graphene #1610](https://github.com/graphql-python/graphene/pull/1610): lazy type references for `Connection.Meta.node`.
 - [PennyLaneAI/pennylane #10391](https://github.com/PennyLaneAI/pennylane/pull/10391): `Evolution` pytree leaves and `bind_new_parameters` with a parametric base.
-- [quantumlib/Qualtran #1986](https://github.com/quantumlib/Qualtran/pull/1986): CNOT count in `Add.build_call_graph` for unequal register bitsizes.
+- [quantumlib/Qualtran #1986](https://github.com/quantumlib/Qualtran/pull/1986): CNOT count in `Add.build_call_graph` for unequal register bitsizes. Also [#1988](https://github.com/quantumlib/Qualtran/pull/1988): `MeasureX.as_cirq_op`.
+- [data-privacy-stack/presidio #2418](https://github.com/data-privacy-stack/presidio/pull/2418): correct the container port in the source-build install docs.
 
 ## How I report results
 
