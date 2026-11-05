@@ -20,7 +20,7 @@ Don't pin repos that don't exist publicly (`systems-showcase`, `security-advisor
 ## Repo "About" lines (paste into GitHub, max ~350 chars)
 
 ### 1. aisec-suite
-`CI security gate for AI-agent inputs: MCP tool metadata, agent memory files, RAG documents. One command, SARIF output, GitHub Action. Structural tool-poisoning detector: 48.1% recall on held-out synthetic attacks at 0.03% FPR on 3,974 real tool descriptions.`
+`CI security gate for AI-agent inputs: MCP tool metadata, agent memory files, RAG documents. One command, SARIF output, GitHub Action. Structural tool-poisoning detector: 53.7% recall on held-out synthetic attacks at 0.05% FPR on 3,974 real tool descriptions.`
 Topics: `ai-security` `mcp` `prompt-injection` `tool-poisoning` `static-analysis` `sarif` `github-actions` `python`
 
 ### 2. mcpaudit (PyPI: `pyhroff-mcpaudit`)
