@@ -23,7 +23,7 @@ B.Tech CSE (Cybersecurity), IIIT Kottayam, 2024–2028 · Looking for Summer 202
 | [**soc-parallax**](https://github.com/Pyhroff/soc-parallax) | Behavioural detection platform: per-entity baselines, attributable risk scores, MITRE ATT&CK mapping (FastAPI, Neo4j, Next.js). | On 278 real EVTX attack samples, 29.5% reach medium severity or higher (27.3% held-out). |
 | [**osiris**](https://github.com/Pyhroff/osiris) | My daily-use personal AI assistant runtime: 8 providers with failover, 9 tool-scoped agents, embedding memory. | Used every day from the terminal. |
 
-On PyPI: `aisec-suite` 0.4.0 · `pyhroff-mcpaudit` 0.8.0 · `memsentry` 1.2.0 · `pyhroff-ragsentry` 1.1.0
+On PyPI: `aisec-suite` 0.5.0 · `pyhroff-mcpaudit` 0.8.0 · `memsentry` 1.2.0 · `pyhroff-ragsentry` 1.1.0
 
 ## More projects
 
