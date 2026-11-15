@@ -2,11 +2,7 @@
 
 # Praising Harris Ratnam
 ### AI Systems Security Researcher · Runtime Defense & Quantum Systems Engineer
-**B.Tech in Computer Science & Engineering (Cybersecurity) · Indian Institute of Information Technology (IIIT) Kottayam (2024–2028)**  
-*Universal 6-Month Internship / Co-op Availability: November 15, 2026 – May 15, 2027 (Summer 2027) · University NOC Approved & Academic Credits Eligible*
 
-[![Internship & Co-op Availability](https://img.shields.io/badge/Internship_%2F_Co--op-Available_Nov_15,_2026_--_May_2027_(6_Mo)-0F766E?style=for-the-badge&logo=calendar)](https://github.com/Pyhroff)
-[![University NOC](https://img.shields.io/badge/University_NOC-Approved_%2F_Credit_Eligible-10B981?style=for-the-badge&logo=checkmarx)](https://github.com/Pyhroff)
 [![GitHub](https://img.shields.io/badge/GitHub-Pyhroff-181717?style=for-the-badge&logo=github)](https://github.com/Pyhroff)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Praising_Harris-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/praising-harris-8a3320330)
 [![Email](https://img.shields.io/badge/Email-praisingharris%40gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:praisingharris@gmail.com)
@@ -340,10 +336,8 @@ Comprehensive audit of Tier-1 upstream pull requests, compiler patches, and secu
 
 ---
 
-## 📬 Contact & Internship / Co-op Inquiries
+## 📬 Contact & Links
 
-- **Internship & Co-op Timeline:** 6-Month Availability: November 15, 2026 – May 15, 2027 (Summer 2027) · Immediate Start
-- **Institutional Status:** Indian Institute of Information Technology (IIIT) Kottayam · University NOC Approved & Academic Credits Eligible
 - **Email:** [praisingharris@gmail.com](mailto:praisingharris@gmail.com)
 - **LinkedIn:** [linkedin.com/in/praising-harris-8a3320330](https://www.linkedin.com/in/praising-harris-8a3320330)
 - **GitHub:** [github.com/Pyhroff](https://github.com/Pyhroff)
