@@ -20,7 +20,7 @@
 [![Google Qualtran Open](https://img.shields.io/badge/Qualtran-PR_%231986_In_Review-4285F4?style=flat-square&logo=git)](https://github.com/quantumlib/Qualtran/pull/1986)
 [![FastMCP Open](https://img.shields.io/badge/FastMCP-PR_%236063_65%2F65_Pass-success?style=flat-square&logo=git)](https://github.com/PrefectHQ/fastmcp/pull/6063)
 [![SQLFluff Approved](https://img.shields.io/badge/SQLFluff-PR_%238900_Approved_LGTM-brightgreen?style=flat-square&logo=git)](https://github.com/sqlfluff/sqlfluff/pull/8900)
-[![PyPI](https://img.shields.io/badge/PyPI-aisec--suite_v0.10.0-blue?style=flat-square&logo=pypi)](https://pypi.org/project/aisec-suite/)
+[![PyPI](https://img.shields.io/badge/PyPI-aisec--suite_v0.11.0-blue?style=flat-square&logo=pypi)](https://pypi.org/project/aisec-suite/)
 [![Lean 4 Proofs](https://img.shields.io/badge/Formal_Proof-13_Lean_4_Certs-darkgreen?style=flat-square)](https://github.com/Pyhroff/specprove-sec)
 [![Z3 SMT](https://img.shields.io/badge/SMT_Prover-Z3_k--Induction-orange?style=flat-square)](https://github.com/Pyhroff/specprove-sec)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Top_2%25_(177_Rooms)-red?style=flat-square&logo=tryhackme)](https://tryhackme.com)
