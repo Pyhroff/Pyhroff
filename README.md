@@ -17,7 +17,7 @@
 ## What I do
 
 I build and measure security tooling for AI agents, and I build the agent and ML systems themselves.
-The tooling is written in Python. The code that is not Python is limited to front ends (the Next.js dashboards in `soc-parallax` and `phantom-investigator`, and a few single-file HTML demos), Lean 4 proof certificates in `specprove-sec`, and one Rust file used as a test fixture in `pqc-scanner`.
+The tooling is written in Python. Across my public repositories, the code that is not Python is limited to front ends (the Next.js dashboard in `soc-parallax` and a few single-file HTML demos) and one Rust file used as a test fixture in `pqc-scanner`.
 
 My security background (detection engineering, application security, threat modelling) shapes how I build AI systems:
 treat model output and tool metadata as untrusted input, enforce controls in code rather than in the prompt,
@@ -36,12 +36,10 @@ and publish what a detector misses next to what it catches.
 | [**mcpaudit**](https://github.com/Pyhroff/mcpaudit) · [**memsentry**](https://github.com/Pyhroff/memsentry) · [**ragsentry**](https://github.com/Pyhroff/ragsentry) | The three scanners behind aisec-suite: MCP tool surfaces, agent memory/context files, RAG source documents. | On attacks written by others, memsentry and ragsentry catch the stock "ignore previous instructions" phrase and 0-3% of attacks without it. |
 | [**soc-parallax**](https://github.com/Pyhroff/soc-parallax) | Detection platform: per-entity behavioural baselines, an attributable risk score, MITRE ATT&CK mapping from a versioned rulebook, incident correlation in Neo4j, grounded narratives. FastAPI, PostgreSQL, Next.js. | On 278 real EVTX attack samples, 29.5% reach medium severity or higher (27.3% on a held-out half). Nothing reaches high on held-out benign data. An earlier inflated 53% figure was found in an audit and replaced. |
 | [**osiris**](https://github.com/Pyhroff/osiris) | Model-agnostic assistant runtime: 8 LLM providers behind one failover router, tool-scoped agents, embedding memory. I use it daily. | Traced a local-model slowdown to Ollama's thinking mode and fixed it with a native adapter (about 100 s to 10 s per call, measured live). |
-| [**kronos-kv**](https://github.com/Pyhroff/kronos-kv) | Standard-library-only Python storage and distributed-systems exercise: a Bitcask-style log-structured store with CRC32 and hint files, a Raft simulator and consistent hashing. | 84.29% disk reclaimed by compaction on the benchmark; Raft runs in an in-process simulator, not over a network. |
 
 More in the portfolio: [PhantomGrid](https://github.com/Pyhroff/PhantomGrid) (behavioural biometrics for banking fraud, team hackathon project),
 [promptstrike](https://github.com/Pyhroff/promptstrike) (multi-turn LLM red-teaming), [loopcheck](https://github.com/Pyhroff/loopcheck) (agent-loop waste auditor),
-[darkdecoder](https://github.com/Pyhroff/darkdecoder) (ATT&CK + ATLAS threat-intel analysis) and
-[specprove-sec](https://github.com/Pyhroff/specprove-sec) (Z3 model checking of agent protocols, research prototype).
+[darkdecoder](https://github.com/Pyhroff/darkdecoder) (ATT&CK + ATLAS threat-intel analysis).
 
 ---
 
