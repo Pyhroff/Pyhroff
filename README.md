@@ -17,7 +17,7 @@
 ## What I do
 
 I build and measure security tooling for AI agents, and I build the agent and ML systems themselves.
-Everything is written in Python. The only non-Python code across my repositories is a Next.js dashboard front end in `soc-parallax`.
+The tooling is written in Python. The code that is not Python is limited to front ends (the Next.js dashboards in `soc-parallax` and `phantom-investigator`, and a few single-file HTML demos), Lean 4 proof certificates in `specprove-sec`, and one Rust file used as a test fixture in `pqc-scanner`.
 
 My security background (detection engineering, application security, threat modelling) shapes how I build AI systems:
 treat model output and tool metadata as untrusted input, enforce controls in code rather than in the prompt,
