@@ -2,7 +2,7 @@
 
 # Praising Harris Ratnam
 
-### AI Security Engineer · AI Engineer, with a cybersecurity backbone
+### AI Engineering · AI Security · Applied AI
 **Python-native** · B.Tech CSE (Cybersecurity), IIIT Kottayam, batch of 2028
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-pyhroff.github.io-00ADB5?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pyhroff.github.io)
@@ -16,8 +16,7 @@
 
 ## What I do
 
-I build and measure security tooling for AI agents, and I build the agent and ML systems themselves.
-The tooling is written in Python. Across my public repositories, the code that is not Python is limited to front ends (the Next.js dashboard in `soc-parallax` and a few single-file HTML demos) and one Rust file used as a test fixture in `pqc-scanner`.
+I build AI systems and security tooling in Python, and publish benchmarks that show where they work and where they fail.
 
 My security background (detection engineering, application security, threat modelling) shapes how I build AI systems:
 treat model output and tool metadata as untrusted input, enforce controls in code rather than in the prompt,
@@ -27,35 +26,31 @@ and publish what a detector misses next to what it catches.
 
 ---
 
-## Flagship projects
+## Featured projects
 
-| Project | What it is | Measured result |
+| Project | What it shows | Evaluation |
 |---|---|---|
-| [**aisec-suite**](https://github.com/Pyhroff/aisec-suite) (PyPI `0.11.0`) | CI security gate for what AI agents trust: MCP tool metadata, agent memory files, RAG documents. SARIF output, baselines, reachability analysis, an MCP runtime guard and an LLM red-team CLI. | Structural poisoning detector: 53.7% recall on my held-out attacks, 14.0% on other researchers' attacks (MCPTox, MCP-Poison-Bench), 0.05% false positives on 3,974 real tool descriptions (2 flagged). It misses roughly half of unseen attacks, and the README says so. |
-| [**mcp-scan-study**](https://github.com/Pyhroff/mcp-scan-study) | Hand-labelled study of 135 public MCP-server repos, with the scanner patches that came out of it. | No real tool poisoning found in the wild. mcpaudit precision went from 37.5% to 64.3% on a held-out sample, and from 40% to 72.7% on a blind-labelled fresh corpus. |
-| [**mcpaudit**](https://github.com/Pyhroff/mcpaudit) · [**memsentry**](https://github.com/Pyhroff/memsentry) · [**ragsentry**](https://github.com/Pyhroff/ragsentry) | The three scanners behind aisec-suite: MCP tool surfaces, agent memory/context files, RAG source documents. | On attacks written by others, memsentry and ragsentry catch the stock "ignore previous instructions" phrase and 0-3% of attacks without it. |
-| [**soc-parallax**](https://github.com/Pyhroff/soc-parallax) | Detection platform: per-entity behavioural baselines, an attributable risk score, MITRE ATT&CK mapping from a versioned rulebook, incident correlation in Neo4j, grounded narratives. FastAPI, PostgreSQL, Next.js. | On 278 real EVTX attack samples, 29.5% reach medium severity or higher (27.3% on a held-out half). Nothing reaches high on held-out benign data. An earlier inflated 53% figure was found in an audit and replaced. |
-| [**osiris**](https://github.com/Pyhroff/osiris) | Model-agnostic assistant runtime: 8 LLM providers behind one failover router, tool-scoped agents, embedding memory. I use it daily. | Traced a local-model slowdown to Ollama's thinking mode and fixed it with a native adapter (about 100 s to 10 s per call, measured live). |
+| [**aisec-suite**](https://github.com/Pyhroff/aisec-suite) | AI security tooling for MCP tool metadata, agent memory, and RAG documents, with CI integration and published benchmarks. | Structural detector recall was 53.7% on my holdout and 14.0% on each external benchmark. It flagged 2 of 3,974 real tool descriptions. [Study](https://github.com/Pyhroff/aisec-suite/blob/master/docs/STUDY.md) |
+| [**Osiris**](https://github.com/Pyhroff/osiris) | Model-agnostic assistant runtime with eight provider adapters, automatic failover, scoped tools, and embedding memory. | Switching to Ollama's native adapter reduced one CPU-only plain-generation task from about 100 s to 10 s. [Benchmark](https://github.com/Pyhroff/osiris/blob/main/benchmarks/FINDINGS.md) |
+| [**SOC Parallax**](https://github.com/Pyhroff/soc-parallax) | Full-stack detection platform with attributable risk scores and incident correlation. Built with FastAPI, PostgreSQL, Neo4j, and Next.js. | 35 of 128 held-out attack files reached medium severity or higher. Across the full 278-file corpus, 46 files yielded no parsed events. [Evaluation](https://github.com/Pyhroff/soc-parallax/blob/main/docs/EVALUATION.md) |
+| [**Lucid**](https://github.com/Pyhroff/lucid-housing-ai) | Team project for housing assistance with structured intake, human confirmation, and a deterministic eligibility rules engine. | The live model extracted all required fields correctly in 91% of 23 synthetic scenarios. [Evaluation](https://github.com/Pyhroff/lucid-housing-ai/blob/main/eval/EVAL_RESULTS.md) |
 
-More in the portfolio: [PhantomGrid](https://github.com/Pyhroff/PhantomGrid) (behavioural biometrics for banking fraud, team hackathon project),
-[promptstrike](https://github.com/Pyhroff/promptstrike) (multi-turn LLM red-teaming), [loopcheck](https://github.com/Pyhroff/loopcheck) (agent-loop waste auditor),
-[darkdecoder](https://github.com/Pyhroff/darkdecoder) (ATT&CK + ATLAS threat-intel analysis).
+The [MCP Scan Study](https://github.com/Pyhroff/mcp-scan-study) documents the research behind aisec-suite. [mcpaudit](https://github.com/Pyhroff/mcpaudit), [memsentry](https://github.com/Pyhroff/memsentry), [ragsentry](https://github.com/Pyhroff/ragsentry), and [agent-security-ci](https://github.com/Pyhroff/agent-security-ci) provide its scanners and regression infrastructure. [ModelHawk](https://github.com/Pyhroff/ModelHawk) checks model artifacts, and [PurpleLens](https://github.com/Pyhroff/PurpleLens) tests detection rules with synthetic telemetry.
 
 ---
 
 ## Upstream open source
 
-7 pull requests merged and 13 open at the last check (13 Nov 2026). Live status is on each PR; the full table is on the [portfolio](https://pyhroff.github.io/#upstream).
+Eight public upstream pull requests merged as of 27 Nov 2026. [Merged PRs](https://github.com/pulls?q=is%3Apr+author%3APyhroff+is%3Apublic+-user%3APyhroff+is%3Amerged) · [Current open PRs](https://github.com/pulls?q=is%3Apr+author%3APyhroff+is%3Apublic+-user%3APyhroff+is%3Aopen)
 
 | Merged | What it fixed |
 |---|---|
-| [tobymao/sqlglot #8780](https://github.com/tobymao/sqlglot/pull/8780) | `Parser._replace_lambda` shared one `DataType` node between several casts. |
-| [PrefectHQ/fastmcp #6063](https://github.com/PrefectHQ/fastmcp/pull/6063) | Host callbacks were not counted against the Monty sandbox time limit; added a wall-clock timeout and a call budget. |
-| [BerriAI/litellm #47091](https://github.com/BerriAI/litellm/pull/47091) | A string `stop` value is now wrapped for Cohere `stop_sequences`. |
-| [sqlfluff #8899](https://github.com/sqlfluff/sqlfluff/pull/8899), [#8901](https://github.com/sqlfluff/sqlfluff/pull/8901), [#8902](https://github.com/sqlfluff/sqlfluff/pull/8902), [#9059](https://github.com/sqlfluff/sqlfluff/pull/9059) | Dialect grammar fixes for StarRocks, Doris and MySQL. |
+| [FastMCP #6063](https://github.com/PrefectHQ/fastmcp/pull/6063) | Added a wall-clock timeout and callback budget for sandbox execution. |
+| [LiteLLM #47091](https://github.com/BerriAI/litellm/pull/47091) | Normalized a string stop value to a list for Cohere's `stop_sequences`. |
+| [SQLGlot #8780](https://github.com/tobymao/sqlglot/pull/8780) | Copied the `DataType` node for each cast in lambda rewrites. |
+| [SQLFluff #8899](https://github.com/sqlfluff/sqlfluff/pull/8899), [#8900](https://github.com/sqlfluff/sqlfluff/pull/8900), [#8901](https://github.com/sqlfluff/sqlfluff/pull/8901), [#8902](https://github.com/sqlfluff/sqlfluff/pull/8902), [#9059](https://github.com/sqlfluff/sqlfluff/pull/9059) | Updated SQL grammar for ANSI, StarRocks, Doris, and MySQL. |
 
-Open work includes authorization fixes in LiteLLM ([#47105](https://github.com/BerriAI/litellm/pull/47105)), MCP pagination in CrewAI ([#8240](https://github.com/crewAIInc/crewAI/pull/8240)),
-and fixes in PennyLane, Qualtran, Graphene and Presidio.
+More projects on [my portfolio](https://pyhroff.github.io) and GitHub include [PhantomGrid](https://github.com/Pyhroff/PhantomGrid), [promptstrike](https://github.com/Pyhroff/promptstrike), [loopcheck](https://github.com/Pyhroff/loopcheck), and [darkdecoder](https://github.com/Pyhroff/darkdecoder).
 
 ---
 
